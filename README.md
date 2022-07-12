@@ -8,7 +8,7 @@ Code for our paper "[BEACCE: Branch-Endpoint-Aware Double-DQN for Coronary Cente
 The pipeline of our method is shown below:
 
 <p align="center">
-    <img src="images/framework.png" width="750" height="500"> 
+    <img src="framework.png" width="750" height="500"> 
 
 
 
