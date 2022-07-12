@@ -22,17 +22,16 @@ CUDA 11.2
 
 ## Data process
 
-Our model was trained and evaluated on 100 LGE MRI volumes of AF patients, which was provided by 2018 Atrial Segmentation Challenge in the STACOM 2018. Each volume contained 88 slices along Z direction with a spatial dimension of either $576\times576$ or $640\times640$. The ground truth of LA in this dataset was performed by three trained observers. The ground truth included LA endocardial surface with the mitral valve, LA appendage, and an part of the pulmonary veins (PVs).
-
-For data preprocess, we firstly normalized the intensity of each volume with zero-mean-unit-variation. To omit the unrelated region and save the computational cost, we cropped each volume into $256\times256\times88$ at the heart region. The 100 volumes were randomly divided into training (N=70), validation (N=10), and testing (N=20) sets.
+```
+python w_coor2v_coor.py
+```
 
 ## Training
 
-**Run**
+```
+python ddqn.py
+python detector.py
 
-```python
-train: python train.py
-test: python test.py
 ```
 
 ## Results
