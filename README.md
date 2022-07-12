@@ -42,19 +42,16 @@ python app.py
     
 ## Results
 
-Our segmentation model is evaluated by four evaluation metrics, which are **Dice score**, **Jaccard score**,  **Average Symmetric Surface Distance (ASSD)**, and **Hausdorff distance (HD)**. We performed three group of experiments to evaluate the performance of the proposed model. Please refer to the original paper for more details.
-
-The individual score of metrics during the test stage is shown in the box diagrams. The tiny box, black &diams;, and -- in each box indicated the mean, outliers, and media, respectively. In each subplot, the x and y axes denote the model name and the score of each metric.
 
 <p align="center">
-    <img src="images/box_compare_result.png" width="1000" height="200">
+    <img src="fig7.png">
 </p>
 
 
 We reconstructed one predicted case in multi-view for our ablation experiments. The ground truth is shown as green contour on each blue prediction. The last row is the corresponding 3D signed distance map between prediction and ground truth. The positive (or negative) sign indicated over (or under) segmentation. 
 
 <p align="center">
-    <img src="images/multiview.png" width="700" height="300"> 
+    <img src="fig8.png"> 
 </p>
 
 ## Cite
