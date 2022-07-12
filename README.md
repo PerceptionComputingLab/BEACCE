@@ -20,12 +20,19 @@ Pytorch 1.7
 
 CUDA 11.2
 
-## Data process
+## Coordinate transformation
 
 ```
 python w_coor2v_coor.py
 ```
+    
+## Branch detection
+    
+```
+branch_detec.py
 
+```
+    
 ## Training
 
 ```
@@ -34,6 +41,12 @@ python detector.py
 
 ```
 
+## Inference
+
+```
+python app.py
+```
+    
 ## Results
 
 Our segmentation model is evaluated by four evaluation metrics, which are **Dice score**, **Jaccard score**,  **Average Symmetric Surface Distance (ASSD)**, and **Hausdorff distance (HD)**. We performed three group of experiments to evaluate the performance of the proposed model. Please refer to the original paper for more details.
