@@ -26,13 +26,6 @@ CUDA 11.2
 python w_coor2v_coor.py
 ```
     
-## Branch detection
-    
-```
-branch_detec.py
-
-```
-    
 ## Training
 
 ```
