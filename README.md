@@ -2,8 +2,8 @@
 
 Code for our paper "[BEACCE: Branch-Endpoint-Aware Double-DQN for Coronary Centerline Extraction in CT Angiography Images](https://link.springer.com/chapter/10.1007/978-3-030-59725-2_4)". 
 
-- Proposed an uncertainty guided objective function to refine the left atrium segmentation based on Jenson-Shannon (JS) discrepancy.
-- Conducted an symmetric multi-level supervision network for multi-scale representation learning.
+- Propose the Double Deep Q-network based coronary artery tracing method in CCTA for the first time.
+- Extracts the entire coronary tree with lower time-cost than other state-of-the-art methods, uses only one seed and terminates tracing automatically.
 
 The pipeline of our method is shown below:
 
