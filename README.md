@@ -68,11 +68,10 @@ We reconstructed one predicted case in multi-view for our ablation experiments. 
 
 Please consider citing this project in your publications if it helps your research. The following is a BibTeX reference. The BibTeX entry requires the url LaTeX package.
 
-@inproceedings{zhang2020branch,
-  title={Branch-aware double DQN for centerline extraction in coronary CT angiography},
-  author={Zhang, Yuyang and Luo, Gongning and Wang, Wei and Wang, Kuanquan},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={35--44},
-  year={2020},
-  organization={Springer}
-}
+    @article{liu2022uncertainty,
+      title={Uncertainty-guided symmetric multi-level supervision network for 3D left atrium segmentation in late gadolinium-enhanced MRI},
+      author={Liu, Yashu and Wang, Wei and Luo, Gongning and Wang, Kuanquan and Liang, Dong and Li, Shuo},
+      journal={Medical Physics},
+      publisher={Wiley Online Library}
+      doi={10.1002/mp.15670}
+    }
