@@ -1,6 +1,6 @@
 # BEACCE
 
-Code for our paper "[Uncertainty Guided Symmetric Multi-Level Supervision Network for 3D Left Atrium Segmentation in Late Gadolinium-Enhanced MRI](https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.15670)". 
+Code for our paper "[BEACCE: Branch-Endpoint-Aware Double-DQN for Coronary Centerline Extraction in CT Angiography Images](https://link.springer.com/chapter/10.1007/978-3-030-59725-2_4)". 
 
 - Proposed an uncertainty guided objective function to refine the left atrium segmentation based on Jenson-Shannon (JS) discrepancy.
 - Conducted an symmetric multi-level supervision network for multi-scale representation learning.
