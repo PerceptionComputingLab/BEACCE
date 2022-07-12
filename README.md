@@ -48,8 +48,6 @@ python app.py
 </p>
 
 
-We reconstructed one predicted case in multi-view for our ablation experiments. The ground truth is shown as green contour on each blue prediction. The last row is the corresponding 3D signed distance map between prediction and ground truth. The positive (or negative) sign indicated over (or under) segmentation. 
-
 <p align="center">
     <img src="fig8.png"> 
 </p>
