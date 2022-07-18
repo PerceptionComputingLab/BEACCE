@@ -10,30 +10,10 @@ def clip_patch(filename, vox_radi_ref):
     gap = 12
     z, x, y = int(vox_radi_ref[0, 2]), int(vox_radi_ref[0, 0]), int(vox_radi_ref[0, 1])
     patch = img_arr[z-gap:z+gap+1, y-gap:y+gap+1, x-gap:x+gap+1] # z,y,x对应img_arr的slice，行号，列号
-    # scan = patch[100, ...]
-    # scan2 = img_arr[271, ...]
-    # scan3 = img_arr[250, ...]
-    # plt.imshow(scan3, cmap='gray')
-    # plt.show()
-    # plt.imshow(scan, cmap='gray')
-    # plt.show()
-    # plt.imshow(scan2, cmap='gray')
-    # plt.show()
+    
     return patch
 
-# path = r'C:\Users\zyy\Desktop\dataset00\image00.mhd'
-# image =sitk.ReadImage(path)
-# img_arr = sitk.GetArrayFromImage(image)
-# gap = 12
-# patch = img_arr[z-gap:z+gap+1, x-gap:x+gap+1, y-gap:y+gap+1]
-# spacing = image.GetSpacing()
-# slice = 271
-# scan = np.squeeze(img_arr[slice, ...]) # if the image is 3d, the slice is integer
-#
-# plt.imshow(scan, cmap='gray')
-# # plt.axis('off')
-# plt.show()
-# # cv2.imwrite('1.png', image)
+
 
 def read_txt(filename):
     reference = np.loadtxt(filename, dtype=np.float32, delimiter=' ')
@@ -57,7 +37,4 @@ if __name__ == "__main__":
     path_ref = r'dataset00/vessel0/reference.txt'
     vox_radi_ref = read_txt(path_ref)
     np.save(r'dataset00/vessel0/vox_radi.npy', vox_radi_ref)
-    # path_mhd = r'dataset00/image00.mhd'
-    # patch = clip_patch(path_mhd, vox_radi_ref)
-    # np.save(r'dataset00/vessel0/patch0', patch)
-    # print(vox_radi_ref)
+    
