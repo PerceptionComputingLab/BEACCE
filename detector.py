@@ -118,7 +118,7 @@ for epoch_i in range(epoch):
         output = detector(x)
         output_0, output_1, output_2 = output[:, 0], torch.sigmoid(output[:, 1]), torch.sigmoid(output[:, 2])
 
-        loss = loss_func1(output[:, 0], y1) + loss_func2(output[:, 1], y2) + loss_func3(output[:, 2], y3)
+        loss = loss_func1(output[:, 0], y1) + loss_func2(output[:, 1], y2) + 15*loss_func3(output[:, 2], y3)
         print('loss:', loss)
         optimizer.zero_grad()
         loss.backward()
