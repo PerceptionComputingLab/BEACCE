@@ -5,7 +5,7 @@ angel_thresh = 40
 # ct iamge array
 ct_arr = np.load('ct_arr.npy')
 
-# rays normalize
+
 rays = normalize(np.array([[1,-1,-1],[1,-1,0],[1,-1,1],[1,0,-1],[1,0,0],[1,0,1],[1,1,-1],[1,1,0],[1,1,1],
                            [0,-1,-1],[0,-1,0],[0,-1,1],[0,0,-1],[0,0,1],[0,1,-1],[0,1,0],[0,1,1]]))
 rays_label = np.zeros(17)
